@@ -1,0 +1,20 @@
+target_name,column_name,total_rows,null_count,null_ratio,distinct_count,distinct_ratio,min,max,mean,median,std_dev,p25,p50,p75,min_length,max_length,avg_length,min_date,max_date,date_range_days
+profiler.CustomerProfileTest,CustomerId,14,0,0.0,14,1.0,1.0,18.0,9.714285714285714,10.0,5.598833697790122,5.25,10.0,14.75,,,,,,
+profiler.CustomerProfileTest,Name,14,0,0.0,14,1.0,,,,,,,,,9.0,15.0,11.714285714285714,,,
+profiler.CustomerProfileTest,Segment,14,0,0.0,4,0.2857142857142857,,,,,,,,,3.0,9.0,6.214285714285714,,,
+profiler.CustomerProfileTest,Age,14,1,0.07142857142857142,12,0.8571428571428571,5.0,45.0,32.23076923076923,32.0,9.422998429814367,30.0,32.0,39.0,,,,,,
+profiler.CustomerProfileTest,Income,14,1,0.07142857142857142,12,0.8571428571428571,,,,,,,,,,,,,,
+profiler.CustomerProfileTest,SignupDate,14,1,0.07142857142857142,12,0.8571428571428571,,,,,,,,,,,,,,
+profiler.CustomerProfileTest,LastPurchaseDate,14,3,0.21428571428571427,10,0.7142857142857143,,,,,,,,,,,,2024-01-01 00:00:00,2024-11-01 10:15:00,305.0
+profiler.CustomerProfileTest,IsActive,14,0,0.0,1,0.07142857142857142,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,,,,,,
+profiler.CustomerProfileTest,Email,14,1,0.07142857142857142,13,0.9285714285714286,,,,,,,,,,,,,,
+profiler.CustomerProfileTest,Notes,14,0,0.0,14,1.0,,,,,,,,,11.0,150.0,29.571428571428573,,,
+profiler.CustomerProfileTest,ObsoleteCode,14,14,1.0,0,0.0,,,,,,,,,,,,,,
+HighIncomeActiveCustomers,CustomerId,1,0,0.0,1,1.0,11.0,11.0,11.0,11.0,0.0,11.0,11.0,11.0,,,,,,
+HighIncomeActiveCustomers,Name,1,0,0.0,1,1.0,,,,,,,,,11.0,11.0,11.0,,,
+HighIncomeActiveCustomers,Segment,1,0,0.0,1,1.0,,,,,,,,,3.0,3.0,3.0,,,
+HighIncomeActiveCustomers,Age,1,0,0.0,1,1.0,40.0,40.0,40.0,40.0,0.0,40.0,40.0,40.0,,,,,,
+HighIncomeActiveCustomers,Income,1,0,0.0,1,1.0,,,,,,,,,,,,,,
+HighIncomeActiveCustomers,SignupDate,1,0,0.0,1,1.0,,,,,,,,,,,,,,
+HighIncomeActiveCustomers,LastPurchaseDate,1,0,0.0,1,1.0,,,,,,,,,,,,2024-10-01 12:00:00,2024-10-01 12:00:00,0.0
+HighIncomeActiveCustomers,IsActive,1,0,0.0,1,1.0,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,,,,,,

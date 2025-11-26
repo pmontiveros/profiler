@@ -1,0 +1,17 @@
+{
+  "targets": [
+    {
+      "type": "table",
+      "schema": "profiler",
+      "table": "CustomerProfileTest",
+      "where": "IsActive = 1",
+      "sample_rows": 10000
+    },
+    {
+      "type": "query",
+      "name": "HighIncomeActiveCustomers",
+      "sql": "SELECT CustomerId, Name, Segment, Age, Income, SignupDate, LastPurchaseDate, IsActive\nFROM profiler.CustomerProfileTest\nWHERE IsActive = 1 AND Income IS NOT NULL AND Income > 80000",
+      "sample_rows": 5000
+    }
+  ]
+}

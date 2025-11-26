@@ -1,0 +1,5 @@
+target_name,column_name,method,sample_size,outlier_count,outlier_ratio,min_outlier,max_outlier
+profiler.CustomerProfileTest,CustomerId,iqr,14,0,0.0,,
+profiler.CustomerProfileTest,Age,iqr,13,1,0.07692307692307693,5.0,5.0
+HighIncomeActiveCustomers,CustomerId,iqr,1,0,0.0,,
+HighIncomeActiveCustomers,Age,iqr,1,0,0.0,,
